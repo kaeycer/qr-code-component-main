@@ -13,7 +13,7 @@ body {
   font-size: 11px;
   text-align: center;
   position: relative;
-  top: -29vh;
+  top: -25vh;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -30,7 +30,7 @@ body {
 }
 
 span {
-  padding: 10px 0;
+  padding: 10px;
 }
 
 .qr-code {
