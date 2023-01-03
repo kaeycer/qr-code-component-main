@@ -40,12 +40,12 @@ span {
 
 p {
   display: grid;
-  font-size: 25px;
+  font-size: 28px;
   color: hsl(220, 15%, 55%);
 }
 
 .heading {
   color: hsl(218, 44%, 22%);
   font-weight: 700;
-  font-size: 34px;
+  font-size: 36px;
 }
