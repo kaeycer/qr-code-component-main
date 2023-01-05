@@ -23,7 +23,7 @@ main {
   display: grid;
   place-content: center;
   font-family: "Outfit", sans-serif;
-  margin: 0 10rem;
+  margin: 0 28px;
   margin-top: -9rem;
   padding-top: 0.8rem;
   border-radius: 1em;
