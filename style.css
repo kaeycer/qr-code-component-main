@@ -38,14 +38,15 @@ body {
 .centered-box {
   background-color: hsl(0, 0%, 100%);
   border-radius: 12px;
+  flex-basis: 18vw;
 }
 
 .left-box {
-  flex-basis: 20vw;
+  flex-basis: 41vw;
 }
 
 .right-box {
-  flex-basis: 20vw;
+  flex-basis: 41vw;
 }
 
 section {
