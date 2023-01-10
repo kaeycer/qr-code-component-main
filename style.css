@@ -1,3 +1,12 @@
+/* 
+  background-color: hsl(212, 75%, 58%);
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(220, 15%, 55%);
+  font-family: "Outfit", sans-serif;
+  color: hsl(218, 44%, 22%);
+
+*/
+
 * {
   padding: 0;
   margin: 0;
@@ -18,19 +27,33 @@ body {
 
 .container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid hsl(0, 0%, 100%);
   align-content: center;
+  border-radius: 12px;
+  width: auto;
+  margin: 5rem 0 0 0;
+}
+
+.centered-box {
   background-color: hsl(0, 0%, 100%);
-  margin: 160px 619.2px;
-  margin-bottom: 0;
   border-radius: 12px;
 }
 
+.left-box {
+  flex-basis: 20vw;
+}
+
+.right-box {
+  flex-basis: 20vw;
+}
+
+section {
+  flex-shrink: 1;
+}
+
 .qr-code {
-  margin-top: 10px;
+  margin: 10px;
   width: 260px;
   border-radius: 12px;
 }
@@ -56,14 +79,4 @@ span {
 .paragraph {
   margin: 0 0 1.7rem 0;
   color: hsl(220, 15%, 55%);
-}
-
-@media (max-width: 768px) {
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10rem 8.6rem;
-    margin-bottom: 0;
-  }
 }
